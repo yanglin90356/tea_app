@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.top {
+  height: 31px;
+  color: #fafafa;
+  line-height: 31px;
+  background-color: #fafafa;
+  border-bottom: 1px solid #ededed;
+  padding: 4px 0 0 0;
+}
+
+.top_main {
+  width: 1200px;
+  height: 31px;
+  margin: 0 auto;
+}
+
+.top>.top_main>.top_left>.home>img {
+  width: 16px;
+  height: 16px;
+  left: 17.8%;
+  top: 12px;
+  position: absolute;
+}
+
+.top>.top_main>.top_left>.home>a {
+  color: #787878;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+#zzz>p {
+  margin-left: 40%;
+}
+
+#zzz>#img_1{
+  width: 224px;
+}
+
+#zzz>#img_2{
+  width: 940px;
+}
