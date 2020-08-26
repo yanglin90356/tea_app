@@ -124,7 +124,6 @@ export default {
           this.allGoods.push(v.Id);
         });
       }
-      console.log(this.allGoods);
     },
     // 点击单选按钮
     selectSingle(index) {
@@ -139,7 +138,6 @@ export default {
           }
         }
       }
-      console.log(this.allGoods);
     },
   },
   mounted() {

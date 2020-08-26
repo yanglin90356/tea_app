@@ -34,9 +34,12 @@ export default {
         document.documentElement.scrollTop ||
         document.body.scrollTop;
       that.scrollTop = scrollTop;
+      // 判断距离顶部的距离是否大于430,如果大于430
       if (that.scrollTop > 430) {
+        // 就让其显示
         that.backtop = true;
       } else {
+        // 否则就让其隐藏
         that.backtop = false;
       }
     },
@@ -44,9 +47,6 @@ export default {
   mounted() {
     // 此处true需要加上,如果不加上的话滚动事件可能绑定不成功
     window.addEventListener("scroll", this.scrollTop, true);
-  },
-  destroyed() {
-    window.removeEventListener("scroll", this.backtop, true);
   },
 };
 </script>

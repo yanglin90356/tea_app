@@ -23,39 +23,7 @@ export default new Vuex.Store({
     updateCart(state, detail) {
       state.cart.push(detail)
     },
-    // updateGoosChecked(state, info) {
-    //   state.cart.some(item => {
-    //     if (item.Id == info.Id) {
-    //       item.ssschecked = info.ssschecked
-    //     }
-    //   })
-    //   // 把最新的所有购物车商品的状态保存到store状态中去
-    //   localStorage.setItem('cart', JSON.stringify(state.cart))
-    // },
-
   },
-  // getters: {
-  //   getGoodsSelect(state) {
-  //     let selce = {}
-  //     state.cart.forEach(item => {
-  //       selce[item.Id] = item.ssschecked
-  //     })
-  //     return selce
-  //   },
-  //   getGoodsCountAndAmount(state) {
-  //     let sum = {
-  //       count: 0,
-  //       amount: 0
-  //     };
-  //     state.cart.forEach(item => {
-  //       if (item.ssschecked) {
-  //         sum.count += item.count;
-  //         sum.amount += item.count * item.Price
-  //       }
-  //     })
-  //     return sum;
-  //   }
-  // },
   actions: {
   },
   modules: {
